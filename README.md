@@ -10,7 +10,7 @@ Requires Python >= 3.11. Install dependencies with [Poetry](https://python-poetr
 poetry install
 ```
 
-Analysis is in `PVRI_analysis_final_cleaned.ipynb`.
+Analysis is in `PVRI_analysis.ipynb`.
 
 ## Data
 
