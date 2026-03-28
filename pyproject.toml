@@ -1,0 +1,26 @@
+[project]
+name = "phgps"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Shiv Munagala",email = "shiv@shivm.xyz"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "polars (>=1.31.0,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)",
+    "numpy (>=2.3.1,<3.0.0)",
+    "plotly (>=6.2.0,<7.0.0)",
+    "pandas (>=3.0.1,<4.0.0)",
+    "nbformat (>=5.10.4,<6.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "phgps", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
